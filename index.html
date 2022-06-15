@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA api</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-top">
+                <button class="geader-logo">
+
+                </button>
+                <span class="header-top__title"></span>
+            </div>
+            <div class="header-hero">
+                <h1>NASA MARS</h1>
+                <p class="header-hero__title">
+
+                </p>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-list__rovers" id="main-list__rovers">
+                <img class="main-list__item rover-curiosity" id="rover-curiosity" src="img/curiosity-rover.jpg" alt="Curiosity">
+                <img class="main-list__item rover-opportunity" id="rover-opportunity" src="img/opportunity-rover.jpg" alt="Opportunity">
+                <img class="main-list__item rover-spirit" id="rover-spirit" src="img/spirit-rover.jpg" alt="Spirit">
+            </div>
+            <div>
+                <input type="date" id="date">
+                <button id="button" href="">Отправить</button>
+            </div>
+            <div id="results"></div>
+            <img src="" id="image" alt="Mars Photo" width="300px" height=auto style="display: none">
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
